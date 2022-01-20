@@ -1,0 +1,9 @@
+.mp-2{
+  padding: 3em!important;
+}
+@media(max-width:700px)
+{
+  .mp-2{
+    padding: 2rem!important;
+  }
+}

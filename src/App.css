@@ -1,0 +1,19 @@
+*{
+  padding:0px;
+  margin:0px;
+  font-family: 'Poppins', sans-serif;
+}
+.purple{
+  background-color: #5E60CE;
+}
+.dentity-card-image{
+  display: flex;
+  justify-content: center;
+}
+.dentity-card-image img {
+  width: 70px;
+  height: auto;
+}
+.text-purple{
+  color: #5E60CE;
+}
