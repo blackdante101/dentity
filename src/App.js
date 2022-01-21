@@ -9,7 +9,35 @@ function App() {
   return (
     <>
     <section className="purple">
- 
+   <div className="container pt-3">
+   <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <div class="container-fluid align-items-center">
+    <a class="navbar-brand text-white" href="#"> <h4 class="fw-bold">Dentity</h4></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li style={{paddingLeft:'40px'}} class="nav-item">
+          <a class="nav-link text-white" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white px-5" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Pricing</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        
+        <button class="btn px-3" style={{border:'1px solid white',color:'white'}}>Sign in</button>
+        <button class="btn px-3 btn-warning text-white" style={{marginLeft:'20px'}}>Sign Up</button>
+      </form>
+    </div>
+  </div>
+</nav>
+   </div>
       <div className="container">
       <div className="row">
         <div className="col-md-6 p-2 d-flex align-items-center">
@@ -76,7 +104,10 @@ function App() {
        <div className="row">
          <div className="col-md-5 mp-2">
            <h1 className="fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
-           <button style={{border:"1px solid black",borderRadius:"10px",padding:"0.7em 1em"}} className="btn mt-5">View Documentation</button>
+            <p className="mt-3 text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, maxime ducimus quidem dolorum asperiores deleniti at rem, veniam, magni quod sed dolorem nemo. Maiores expedita, id voluptate dolore eos perferendis.
+            </p>
+           <button style={{border:"1px solid black",borderRadius:"10px",padding:"0.7em 1em"}} className="btn mt-3">View Documentation</button>
          </div>
          <div className="col-md-7 mp-2">
            <img src={terminal} width="100%" height="100%" />
